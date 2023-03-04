@@ -1,0 +1,124 @@
+{
+    "pizzas": [
+        {
+            "id": 1,
+            "name": "peperoni",
+            "type": [
+                {
+                    "id": 11,
+                    "name": "peperoniP",
+                    "imgP":"https://i.ibb.co/xX8ZnBd/peperoni.png",
+                    "price": 25000
+                },
+                {
+                    "id": 12,
+                    "name": "peperoniM",
+                    "imgM": "https://i.ibb.co/nsXrhCD/peperoni-G.png",
+                    "price": 35000
+                },
+                {
+                    "id": 13,
+                    "name": "peperoniG",
+                    "imgG": "https://i.ibb.co/FxbyM8x/peperoni-M.png",
+                    "price": 50000
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "hawaiana",
+            "type": [
+                {
+                    "id": 14,
+                    "name" :"hawaianaP",
+                    "imgP": "https://i.ibb.co/KcZtt85/hawaiana-M.png",
+                    "price": 25000
+                },
+                {
+                    "id": 15,
+                    "name" : "hawaianaM",
+                    "imgM": "https://i.ibb.co/bLL53yw/hawaiana-P.png",
+                    "price": 35000
+                },
+                {
+                    "id": 16,
+                    "name" : "hawaianaG",
+                    "imgG": "https://i.ibb.co/pLPQKvw/hawaiana-G.png",
+                    "price": 50000
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "champiñones",
+            "type": [
+                {
+                    "id": 17,
+                    "name" : "champiñonesP",
+                    "imgP": "https://i.ibb.co/CwWJhg7/champi-ones-P.png",
+                    "price": 25000
+                },
+                {
+                    "id": 18,
+                    "name" : "champiñonesM",
+                    "imgM": "https://i.ibb.co/W245ZCf/champi-ones-G.png",
+                    "price": 35000
+                },
+                {
+                    "id": 19,
+                    "name" : "champiñonesG",
+                    "imgG": "https://i.ibb.co/j4YGXdJ/champi-ones-M.png",
+                    "price": 50000
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "mexicana",
+            "type": [
+                {
+                    "id": 20,
+                    "name" : "mexicanaP",
+                    "imgP": "https://i.ibb.co/jw56tBb/mexicana-M.png",
+                    "price": 25000
+                },
+                {
+                    "id": 21,
+                    "name" : "mexicanaM",
+                    "imgM": "https://i.ibb.co/qNg14CQ/cuatroquesos-M.png",
+                    "price": 35000
+                },
+                {
+                    "id": 22,
+                    "name" : "mexicanaG",
+                    "imgG": "https://i.ibb.co/jHfqpZx/mexicana-G.png",
+                    "price": 50000
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "cuatroquesos",
+            "type": [
+                {
+                    "id": 23,
+                    "name" : "cuatroquesosP",
+                    "imgP": "https://i.ibb.co/2sy4pPQ/cuatroquesos-P.png",
+                    "price": 25000
+                },
+                {
+                    "id": 24,
+                    "name" : "cuatroquesosM",
+                    "imgM": "https://i.ibb.co/2ZZs8Sp/cuatroquesos-G.png",
+                    "price": 35000
+                },
+                {
+                    "id": 25,
+                    "name" : "cuatroquesosG",
+                    "imgG": "https://i.ibb.co/d0f3pxZ/mexicana-P.png",
+                    "price": 50000
+                }
+            ]
+        }
+    ]
+}
