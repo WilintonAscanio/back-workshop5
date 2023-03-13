@@ -1,124 +1,159 @@
 {
-    "pizzas": [
-        {
-            "id": 1,
-            "name": "peperoni",
-            "type": [
-                {
-                    "id": 11,
-                    "name": "peperoniP",
-                    "imgP":"https://i.ibb.co/xX8ZnBd/peperoni.png",
-                    "price": 25000
-                },
-                {
-                    "id": 12,
-                    "name": "peperoniM",
-                    "imgM": "https://i.ibb.co/nsXrhCD/peperoni-G.png",
-                    "price": 35000
-                },
-                {
-                    "id": 13,
-                    "name": "peperoniG",
-                    "imgG": "https://i.ibb.co/FxbyM8x/peperoni-M.png",
-                    "price": 50000
-                }
-            ]
-        },
-        {
-            "id": 2,
-            "name": "hawaiana",
-            "type": [
-                {
-                    "id": 14,
-                    "name" :"hawaianaP",
-                    "imgP": "https://i.ibb.co/KcZtt85/hawaiana-M.png",
-                    "price": 25000
-                },
-                {
-                    "id": 15,
-                    "name" : "hawaianaM",
-                    "imgM": "https://i.ibb.co/bLL53yw/hawaiana-P.png",
-                    "price": 35000
-                },
-                {
-                    "id": 16,
-                    "name" : "hawaianaG",
-                    "imgG": "https://i.ibb.co/pLPQKvw/hawaiana-G.png",
-                    "price": 50000
-                }
-            ]
-        },
-        {
-            "id": 3,
-            "name": "champiñones",
-            "type": [
-                {
-                    "id": 17,
-                    "name" : "champiñonesP",
-                    "imgP": "https://i.ibb.co/CwWJhg7/champi-ones-P.png",
-                    "price": 25000
-                },
-                {
-                    "id": 18,
-                    "name" : "champiñonesM",
-                    "imgM": "https://i.ibb.co/W245ZCf/champi-ones-G.png",
-                    "price": 35000
-                },
-                {
-                    "id": 19,
-                    "name" : "champiñonesG",
-                    "imgG": "https://i.ibb.co/j4YGXdJ/champi-ones-M.png",
-                    "price": 50000
-                }
-            ]
-        },
-        {
-            "id": 4,
-            "name": "mexicana",
-            "type": [
-                {
-                    "id": 20,
-                    "name" : "mexicanaP",
-                    "imgP": "https://i.ibb.co/jw56tBb/mexicana-M.png",
-                    "price": 25000
-                },
-                {
-                    "id": 21,
-                    "name" : "mexicanaM",
-                    "imgM": "https://i.ibb.co/qNg14CQ/cuatroquesos-M.png",
-                    "price": 35000
-                },
-                {
-                    "id": 22,
-                    "name" : "mexicanaG",
-                    "imgG": "https://i.ibb.co/jHfqpZx/mexicana-G.png",
-                    "price": 50000
-                }
-            ]
-        },
-        {
-            "id": 5,
-            "name": "cuatroquesos",
-            "type": [
-                {
-                    "id": 23,
-                    "name" : "cuatroquesosP",
-                    "imgP": "https://i.ibb.co/2sy4pPQ/cuatroquesos-P.png",
-                    "price": 25000
-                },
-                {
-                    "id": 24,
-                    "name" : "cuatroquesosM",
-                    "imgM": "https://i.ibb.co/2ZZs8Sp/cuatroquesos-G.png",
-                    "price": 35000
-                },
-                {
-                    "id": 25,
-                    "name" : "cuatroquesosG",
-                    "imgG": "https://i.ibb.co/d0f3pxZ/mexicana-P.png",
-                    "price": 50000
-                }
-            ]
-        }
-    ]
+  "pizzas": [
+    {
+      "id": 1,
+      "name": "Peperoni",
+      "description": "Pizza de peperoni especial para Juniors",
+      "price": 25000,
+      "img": "https://i.ibb.co/rvJRmZz/peperoni.png",
+      "img2": "https://i.ibb.co/f2TsnV2/peperoni-M.png",
+      "img3": "https://i.ibb.co/MGQqVN5/peperoni-G.png",
+      "reviews": 252,
+      "details": "Pizza de Peperoni especial para Juniors que se están adrentrando en el mundo de la programación."
+    },
+    {
+      "id": 2,
+      "name": "Hawaiana",
+      "description": "Pizza Hawaiana para solucionar errrores",
+      "price": 28000,
+      "img": "https://i.ibb.co/8cQDN1Q/hawaiana-G.png",
+      "img2": "https://i.ibb.co/6nSCcGY/hawaiana-P.png",
+      "img3": "https://i.ibb.co/kKcb3Q4/hawaiana-M.png",
+      "reviews": 310,
+      "details": "Pizza Hawaiana con buena piña especial para esos momentos en los que no puede encontrar la solución de sus errores."
+    },
+    {
+      "id": 3,
+      "name": "Champiñones",
+      "description": "Pizza de champiñones para hacer los sprints",
+      "price": 22000,
+      "img": "https://i.ibb.co/MPYdRnn/champi-ones-M.png",
+      "img2": "https://i.ibb.co/sbg8zv8/champi-ones-G.png",
+      "img3": "https://i.ibb.co/bH1Wmsy/champi-ones-P.png",
+      "reviews": 180,
+      "details": "Pizza con buenos champiñones para motivarte a culminar los sprints de la mejor manera y lograr cumplir las metas trazadas."
+    },
+    {
+      "id": 4,
+      "name": "Mexicana",
+      "description": "Pizza mexicana para ponerle picante a los trabajos",
+      "price": 26000,
+      "img": "https://i.ibb.co/JvZFsdJ/mexicana-G.png",
+      "img2": "https://i.ibb.co/pZW8K33/mexicana-P.png",
+      "img3": "https://i.ibb.co/MfdkvdW/mexicana-M.png",
+      "reviews": 179,
+      "details": "Pizza Mexicana especial para ponerle picante a los trabajos, que te permitirá mientras la comes tener otro punto de vista de cada error que te salga."
+    },
+    {
+      "id": 5,
+      "name": "Cuatroquesos",
+      "description": "Pizza cuatroquesos especial para Backends",
+      "price": 24000,
+      "img": "https://i.ibb.co/cLXNQRH/cuatroquesos-P.png",
+      "img2": "https://i.ibb.co/SKGq478/cuatroquesos-G.png",
+      "img3": "https://i.ibb.co/R7qnNqm/cuatroquesos-M.png",
+      "reviews": 220,
+      "details": "Pizza cuatroquesos especial para aquellas personas que se encargan del Backend para que puedan tener una mejor percepción del código."
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "name": "Wilinton",
+      "username": "wilinton",
+      "password": "123",
+      "url": "https://cdn-icons-png.flaticon.com/512/4202/4202835.png"
+    },
+    {
+      "id": 2,
+      "name": "Andres",
+      "username": "Andres",
+      "password": "123",
+      "url": "https://cdn-icons-png.flaticon.com/512/4202/4202835.png"
+    },
+    {
+      "name": "Lucas",
+      "username": "lucas",
+      "password": "123",
+      "url": "https://cdn-icons-png.flaticon.com/512/921/921110.png",
+      "id": 3
+    },
+    {
+      "name": "Pedro",
+      "username": "pedro12",
+      "password": "123",
+      "url": "https://cdn-icons-png.flaticon.com/512/921/921110.png",
+      "id": 4
+    },
+    {
+      "name": "Luis",
+      "username": "luis",
+      "password": "123",
+      "url": "https://cdn-icons-png.flaticon.com/512/921/921110.png",
+      "id": 5
+    },
+    {
+      "name": "Gredy",
+      "username": "gredy",
+      "password": "123",
+      "url": "https://cdn-icons-png.flaticon.com/512/921/921110.png",
+      "id": 6
+    },
+    {
+      "name": "Jose",
+      "username": "josesito",
+      "password": "123",
+      "url": "https://cdn-icons-png.flaticon.com/512/921/921110.png",
+      "id": 7
+    },
+    {
+      "name": "Gloria",
+      "username": "Gloria1",
+      "password": "123",
+      "url": "https://cdn-icons-png.flaticon.com/512/2335/2335114.png",
+      "id": 8
+    },
+    {
+      "name": "Lebron",
+      "username": "lebron12",
+      "password": "123",
+      "url": "https://cdn-icons-png.flaticon.com/512/921/921110.png",
+      "id": 9
+    },
+    {
+      "name": "luisantonio",
+      "username": "lucho",
+      "password": "lucho123",
+      "url": "https://cdn-icons-png.flaticon.com/512/921/921110.png",
+      "id": 10
+    },
+    {
+      "name": "pepe",
+      "username": "pepe12",
+      "password": "123",
+      "url": "https://cdn-icons-png.flaticon.com/512/921/921110.png",
+      "id": 11
+    },
+    {
+      "name": "pepes",
+      "username": "pepe",
+      "password": "123",
+      "url": "https://cdn-icons-png.flaticon.com/512/921/921110.png",
+      "id": 12
+    },
+    {
+      "name": "anto",
+      "username": "anto",
+      "password": "123",
+      "url": "https://cdn-icons-png.flaticon.com/512/921/921110.png",
+      "id": 13
+    },
+    {
+      "name": "Luisa",
+      "username": "luis12",
+      "password": "123",
+      "url": "https://cdn-icons-png.flaticon.com/512/921/921110.png",
+      "id": 14
+    }
+  ]
 }
